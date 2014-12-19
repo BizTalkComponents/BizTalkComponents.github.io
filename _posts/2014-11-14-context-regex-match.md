@@ -8,12 +8,10 @@ date: 2014-11-14 12:00:00
 Source code and issues: https://github.com/BizTalkComponents/ContextRegExMatch
 
 NuGet package:
-
-MSI installer:
-
-Pipeline direction: Receive
-
 Pipeline stage: Any
+MSI installer:
+Streaming: N/A
+Pipeline direction: Receive
 
 # Usage #
 The Context RegEx Match component contains functionality to read a specific value in the context of a message, 
@@ -37,7 +35,12 @@ Should be in format `http://foo.bar#value`.
 ## Value To Set (Required) ##
 The value to set if the match is successful.
 
-# Example #
+# Remarks #
+If the component receives null when trying to reading the value that the match should be performed against an exception will occur. 
+
+If the message context that the components is trying to promote is not found, if for example that schema is not deployed, an exception will occur.
+
+
 In a scenario with the message context shown below.
 
 Name | Value | Namespace
@@ -52,12 +55,3 @@ Name | Value | Namespace
 ---- | ----- | ---------
 Test | 752368 |  http://acmeset1.com/prop
 Test | OK |  http://acmeset2.com/prop
-
-# Remarks #
-If the component receives null when trying to reading the value that the match should be performed against an exception will occur. 
-
-If the message context that the components is trying to promote is not found, if for example that schema is not deployed, an exception will occur.
-
-# Change Log #
-## Version 1 ##
-Initial version
