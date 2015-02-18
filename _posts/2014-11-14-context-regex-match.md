@@ -2,8 +2,8 @@
 layout: page
 title: "Context RegEx Match"
 source: "https://github.com/BizTalkComponents/ContextRegExMatch"
-nuget: "todo"
-installer: "todo"
+nuget: "https://nuget"
+installer: "https://installer"
 category: ref
 date: 2014-11-14 12:00:00
 ---
@@ -16,7 +16,7 @@ to another part of the message context.
 The component is useful when receiving a message with a promoted value in its context that one then want to evaluate rules against to for example simplify filtering in routing of messages. 
 
 ## Properties ##
-<table>
+<table class="properties">
     <tr>
         <td>Pattern To Match</td>
         <td>Required</td>
