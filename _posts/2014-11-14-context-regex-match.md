@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Context RegEx Match component"
-source: "https://github.com/BizTalkComponents/ContextRegExMatch""
+title: "Context RegEx Match"
+source: "https://github.com/BizTalkComponents/ContextRegExMatch"
 nuget: "todo"
 installer: "todo"
 category: ref
