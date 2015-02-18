@@ -5,5 +5,19 @@ layout: default
 <h1>{{ page.title }}
   {% if page.subtitle %}<small>{{ page.subtitle }}</small>{% endif %}
 </h1>
+<table>
+    <tr>
+        <td>Source</td>
+        <td>{% if page.source %} : {{ page.source }}{% endif %}</td>
+    </tr>
+    <tr>
+        <td>NuGet package</td>
+        <td>{% if page.nuget %} : {{ page.nuget }}{% endif %}</td>
+    </tr>
+    <tr>
+        <td>Installer</td>
+        <td>{% if page.installer %} : {{ page.installer }}{% endif %}</td>
+    </tr>
+</table>
 
 {{ content }}
