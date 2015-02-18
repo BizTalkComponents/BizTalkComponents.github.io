@@ -26,13 +26,13 @@ The component is useful when receiving a message with a promoted value in its co
         <td>ContextPropertyToMatch</td>
         <td>Required</td>
         <td>Namespace and value of the context property that the match should execute against. 
-Should be in format `http://foo.bar#value`. </td>
+Should be in format <code>http://foo.bar#value</code>. </td>
     </tr>
     <tr>
         <td>ContextPropertyToSet</td>
         <td>Required</td>
         <td>Namespace and value of the context property that should be used to the set the value. 
-Should be in format `http://foo.bar#value`. </td>
+Should be in format <code>http://foo.bar#value</code>. </td>
     </tr>
      <tr>
         <td>ValueToSet</td>
