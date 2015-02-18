@@ -5,19 +5,27 @@ layout: default
 <h1>{{ page.title }}
   {% if page.subtitle %}<small>{{ page.subtitle }}</small>{% endif %}
 </h1>
+{% if page.source or page.nuget or page.installer %}
 <table>
+    {% if page.source %}
     <tr>
         <td>Source</td>
-        <td>{% if page.source %}<a href="{{ page.source }}">{{ page.source }}</a>{% endif %}</td>
+        <td><a href="{{ page.source }}">{{ page.source }}</a></td>
     </tr>
+    {% endif %}
+    {% if page.nuget %}
     <tr>
         <td>NuGet package</td>
-        <td>{% if page.nuget %}<a href="{{ page.nuget }}">{{ page.nuget }}</a>{% endif %}</td>
+        <td><a href="{{ page.nuget }}">{{ page.nuget }}</a></td>
     </tr>
+    {% endif %}
+    {% if page.installer %}
     <tr>
         <td>Download installer</td>
-        <td>{% if page.installer %}<a href="{{ page.installer }}">{{ page.installer }}</a>{% endif %}</td>
+        <td><a href="{{ page.installer }}">{{ page.installer }}</a></td>
     </tr>
+    {% endif %}
 </table>
+{% endif %}
 
 {{ content }}
