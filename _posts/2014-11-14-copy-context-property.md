@@ -13,19 +13,19 @@ MSI installer: Not available
 Streaming: N/A
 Pipeline direction: Both
 
-# Usage #
+## Usage ##
 Copies a value from a specified context property to another context property.
 
 This component is useful when you need to promote a hard coded value.
 
-# Configuration & Properties ##
-## Source Property (Required) ##
+## Configuration & Properties ##
+### Source Property (Required) ###
 The property path of the property to copy from.
 
-## DestinationProperty (Required) ##
+### DestinationProperty (Required) ###
 The property path of the property to copy to.
 
-# Remarks #
+## Remarks ##
 Throws ArgumentException if any of the required parameters is not specified.
 
 If the message context that the components is trying to promote is not found, if for example that schema is not deployed, an exception will occur.
