@@ -8,15 +8,15 @@ layout: default
 <table>
     <tr>
         <td>Source</td>
-        <td>{% if page.source %} : {{ page.source }}{% endif %}</td>
+        <td>{% if page.source %}<a href="{{ page.source }}">{{ page.source }}</a>{% endif %}</td>
     </tr>
     <tr>
         <td>NuGet package</td>
-        <td>{% if page.nuget %} : {{ page.nuget }}{% endif %}</td>
+        <td>{% if page.nuget %}<a href="{{ page.nuget }}">{{ page.nuget }}</a>{% endif %}</td>
     </tr>
     <tr>
-        <td>Installer</td>
-        <td>{% if page.installer %} : {{ page.installer }}{% endif %}</td>
+        <td>Download installer</td>
+        <td>{% if page.installer %}<a href="{{ page.installer }}">{{ page.installer }}</a>{% endif %}</td>
     </tr>
 </table>
 
