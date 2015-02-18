@@ -2,6 +2,16 @@ body {
     font-weight: 400;
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);
 }
+h1,h2,h3 {padding:0px;margin:0px;}
+h1 {
+    font-size: 1.3em;
+}
+h2 {
+    font-size: 1.1em;
+}
+h3 {
+    font-size: 0.9em;
+}
 
 pre, code {
     border: none;

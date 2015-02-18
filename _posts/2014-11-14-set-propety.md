@@ -13,19 +13,19 @@ MSI installer: Not available
 Streaming: N/A
 Pipeline direction: Both
 
-# Usage #
+## Usage ##
 Promotes a specified value to a specified property.
 
 This component is useful when you need to promote a hard coded value.
 
-# Configuration & Properties ##
-## Property Path (Required) ##
+## Configuration & Properties ##
+### Property Path (Required) ###
 The path to the context property in the form of namespace#propertyname.
 
-## Value (Required) ##
+### Value (Required) ###
 The value to promote.
 
-# Remarks #
+## Remarks ##
 Throws ArgumentException if any of the required parameters is not specified.
 
 If the message context that the components is trying to promote is not found, if for example that schema is not deployed, an exception will occur.
