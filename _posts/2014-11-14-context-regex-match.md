@@ -18,24 +18,24 @@ The component is useful when receiving a message with a promoted value in its co
 ## Properties ##
 <table class="properties">
     <tr>
-        <td>Pattern To Match</td>
+        <td>PatternToMatch</td>
         <td>Required</td>
         <td>The RegEx pattern used to match the specific context value against.</td>
     </tr>
     <tr>
-        <td>Context Property To Match</td>
+        <td>ContextPropertyToMatch</td>
         <td>Required</td>
         <td>Namespace and value of the context property that the match should execute against. 
 Should be in format `http://foo.bar#value`. </td>
     </tr>
     <tr>
-        <td>Context Property To Set</td>
+        <td>ContextPropertyToSet</td>
         <td>Required</td>
         <td>Namespace and value of the context property that should be used to the set the value. 
 Should be in format `http://foo.bar#value`. </td>
     </tr>
      <tr>
-        <td>Value To Set</td>
+        <td>ValueToSet</td>
         <td>Required</td>
         <td>The value to set if the match is successful.</td>
     </tr>
