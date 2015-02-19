@@ -24,7 +24,7 @@ Should be in format <code>http://foo.bar#value</code>.</td>
     <tr>
         <td>DestinationProperty</td>
         <td>Required</td>
-        <td>Namespace and value of the context property that the match should execute against. 
+        <td>Namespace and value of the context property to copy <b>to</b>.
 Should be in format <code>http://foo.bar#value</code>. </td>
     </tr>
 </table>
