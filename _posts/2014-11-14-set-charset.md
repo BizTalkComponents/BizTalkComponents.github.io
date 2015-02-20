@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Set Charset
+title: "Set Charset"
 source: "https://github.com/BizTalkComponents/SetCharset"
 nuget: "https://www.nuget.org/packages/BizTalkComponents.PipelineComponents.SetCharset/"
 installer: "https://biztalkcomponentsstorage.blob.core.windows.net/deployments/Build/BizTalkComponents.PipelineComponents.SetCharset_1.0.5.msi"
