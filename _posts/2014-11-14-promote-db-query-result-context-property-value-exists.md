@@ -9,7 +9,7 @@ date: 2014-11-14 12:00:00
 ---
 
 ## Usage ##
-Promotes <code>True</code> or <code>False</code> in the specified property if the input context property value exists or not in the database.
+Promotes <code>True</code> in the specified output context property if the input context property value exists in the database, <code>False</code> otherwise.
 
 This component is useful when you need to promote whether a value exists or not in a database.
 
