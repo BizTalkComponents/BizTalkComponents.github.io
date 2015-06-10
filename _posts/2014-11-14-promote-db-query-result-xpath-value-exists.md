@@ -1,15 +1,15 @@
 ---
 layout: page
-title: "Promote Db Query Result - Context Property Value Exists"
+title: "Promote Db Query Result - xPath Value Exists"
 source: "https://github.com/BizTalkComponents/PromoteDbQueryResult"
-nuget: "https://www.nuget.org/packages/BizTalkComponents.PipelineComponents.PromoteDbQueryResult.ContextPropertyValueExists/"
+nuget: "https://www.nuget.org/packages/BizTalkComponents.PipelineComponents.PromoteDbQueryResult.XPathValueExists/"
 installer: ""
 category: ref
 date: 2014-11-14 12:00:00
 ---
 
 ## Usage ##
-Promotes <code>True</code> in the specified output context property if the input context property value exists in the database, <code>False</code> otherwise.
+Promotes <code>True</code> in the specified output context property if the input xPath value exists in the database, <code>False</code> otherwise.
 
 This component is useful when you need to promote whether a value exists or not in a database.
 
@@ -41,9 +41,9 @@ This component is useful when you need to promote whether a value exists or not 
         <td>The name of the database table.</td>
     </tr>
     <tr>
-        <td>InputPropertyPath</td>
+        <td>InputXPath</td>
         <td>Required</td>
-        <td>The input context property.</td>
+        <td>The input xPath.</td>
     </tr>
     <tr>
         <td>OutputPropertyPath</td>
