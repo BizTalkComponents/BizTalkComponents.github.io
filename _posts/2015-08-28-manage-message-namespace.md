@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Manage message namespace"
+title: "Manage message namespace"
 source: "https://github.com/BizTalkComponents/ManageMessageNamespace"
 nuget: "http://www.nuget.org/packages/BizTalkComponents.PipelineComponents.ManageMessageNamespace/"
 installer: "https://github.com/BizTalkComponents/ManageMessageNamespace/releases"
