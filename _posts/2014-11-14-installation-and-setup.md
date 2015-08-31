@@ -21,7 +21,7 @@ After you have referenced the NuGet package from a BizTalk pipeline project do t
 3. Press the _Browse_ button.
 4. Browse to your project directory and locate the component assembly in the packages folder.
 5. Press open to close the dialog.
-6. Make sure that the components is checked.
+6. Make sure that the component is checked.
 7. Press OK to close the dialog and add the component to your toolbox.
 
 ##MSI
