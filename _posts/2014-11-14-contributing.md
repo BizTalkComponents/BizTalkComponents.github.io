@@ -5,7 +5,4 @@ category: dev
 date: 2014-11-14 12:00:00
 ---
 
-BizTalkComponents.Utils is a collection of utility classes on which all BizTalkComponents pipeline components depends on.
-
-
-This [blog post](http://blog.ibiz-solutions.se/integration/sharing-a-biztalk-pipeline-component-in-biztalkcomponents-component-library/) describes how to build a pipeline component using the utils library.
+This [blog post](http://blog.ibiz-solutions.se/integration/sharing-a-biztalk-pipeline-component-in-biztalkcomponents-component-library/) describes how to contribute.
