@@ -8,7 +8,7 @@ category: ref
 date: 2014-11-14 12:00:00
 ---
 
-## Usage ##
+## Description ##
 Promotes a specified value to a specified property.
 
 This component is useful when you need to promote a hard coded value.
