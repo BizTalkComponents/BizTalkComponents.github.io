@@ -5,8 +5,6 @@ category: doc
 date: 2014-11-14 12:00:00
 ---
 
-#Installation and setup
-
 All components are available as both NuGet packages and MSI installers.
 
 
