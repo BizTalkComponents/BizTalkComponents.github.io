@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Set SSO Ticket"
+title: "Promote new Guid"
 source: "https://github.com/BizTalkComponents/PromoteNewGuid"
 nuget: "https://www.nuget.org/packages/BizTalkComponents.PipelineComponents.PromoteNewGuid/"
 installer: "https://github.com/BizTalkComponents/PromoteNewGuid/releases"
