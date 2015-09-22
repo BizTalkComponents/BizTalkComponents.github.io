@@ -9,9 +9,6 @@ date: 2015-08-28 12:00:00
 ---
 
 ## Description ##
-The Context RegEx Match component contains functionality to read a specific value in the context of a message, 
-perform a regular expression match on that value and in case of a successful match promote a fixed value 
-to another part of the message context. 
+ManageMessageNamespace consists of three different pipeline components to add, remove or modify the namespace of a message before it is published in or sent from BizTalk.
 
-The component is useful when receiving a message with a promoted value in its context that one then want to evaluate rules against to for example simplify filtering in routing of messages. 
-
+Messages are read and written to in a streamed manner which helps keeping performance implications to a minimum even with large messages.
