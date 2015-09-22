@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Encrypt Message"
-source: "https://github.com/BizTalkComponents/EncryptMessage"
-nuget: "http://www.nuget.org/packages/BizTalkComponents.PipelineComponents.EncryptMessage/"
-installer: "https://github.com/BizTalkComponents/EncryptMessage/releases"
+title: "Decrypt Message"
+source: "https://github.com/BizTalkComponents/DecryptMessage"
+nuget: "http://www.nuget.org/packages/BizTalkComponents.PipelineComponents.DecryptMessage/"
+installer: "https://github.com/BizTalkComponents/DecryptMessage/releases"
 category: ref
 date: 2015-09-22 12:00:00
 ---
